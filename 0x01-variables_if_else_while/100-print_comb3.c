@@ -9,7 +9,7 @@ int main(void)
 int i, j;
 for (i = 0; i <= 9; i++)
 {
-	for (j = 1; j <= 9; j++)
+for (j = 1; j <= 9; j++)
 		{
 			if (j > i)
 			{
@@ -25,4 +25,4 @@ for (i = 0; i <= 9; i++)
 }
 		putchar('\n');
 		return (0);
-		}
+}
