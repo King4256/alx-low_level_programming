@@ -1,21 +1,20 @@
 #include "main.h"
 
 /**
- * main - main function
- * _putchar: print the alphabets putchar
- * Return: always 0
+ * main - prints result
+ * Return: 0 When successful
  */
 
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	int i;
+	char putty[] = "_putchar";
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(caller[i]);
+	}
 	_putchar('\n');
+
 	return (0);
 }
