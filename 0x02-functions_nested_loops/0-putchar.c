@@ -1,8 +1,10 @@
 #include "main.h"
+
 /**
-* main - prints result
-* Return: 0 When successful
-*/
+ * main - prints result
+ * Return: 0 When successful
+ */
+
 int main(void)
 {
 	int i;
@@ -10,8 +12,9 @@ int main(void)
 
 	for (i = 0; i < 8; i++)
 	{
-		_putchar(putty[i]);
+		_putchar(nuber[i]);
 	}
 	_putchar('\n');
+
 	return (0);
 }
